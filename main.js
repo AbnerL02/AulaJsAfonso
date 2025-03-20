@@ -1,11 +1,11 @@
-const array = [2,3,4,5,6]
+function Pessoa(a,b){
+    this.a = a
+    this.b = b
+}
 
-array.forEach(item=>{
-    if (item%2 ===0){
-        console.log(`O numero ${item} é par`)
-    }
-    else {
-        console.log(`O numero ${item} é impar`)
-    }
-    
-})
+
+const x = new Pessoa("Marcos",19)
+const  y = new Pessoa("Abner",20)
+console.log(x)
+
+console.log(y)
