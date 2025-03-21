@@ -1,11 +1,10 @@
-function Pessoa(a,b){
-    this.a = a
-    this.b = b
+function Carro(valor,cor,ano,modelo,popular){
+    this.valor = valor
+    this.cor = cor
+    this.ano = ano
+    this.modelo = modelo
+    this.popular = popular
 }
 
-
-const x = new Pessoa("Marcos",19)
-const  y = new Pessoa("Abner",20)
-console.log(x)
-
-console.log(y)
+let Porsche = new Carro (150000,"cinza",2023,"911 Turbo S", false)
+console.log(Porsche)
